@@ -11,15 +11,16 @@ html{
 }
 
 .imagem{
-    margin-left: 5%;
     margin-right: 2%;
+    margin-top: 100px;
+
 }
 .login{
     background-color: #FFFFFF;
     border: 1px solid gainsboro;
     width: 350px;
     height: 570px;
-    margin-top: 50px;
+    margin-top: 120px;
 }
 .logo{
     display: flex;
