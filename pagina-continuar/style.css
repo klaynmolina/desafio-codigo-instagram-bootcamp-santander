@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* font-family: sans-serif; */
+    font-size: 14px;
+}
+
+html{
+    background-color: #FAFAFA;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.pagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem{
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-top: 70px;
+}
+.login{
+    margin-top: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    min-height: 34rem;
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.3rem 0;
+    background-color: #FFFFFF;
+    width: 100%;
+    border: 1px solid gainsboro;
+    margin-top: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: center;  
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.profile{    
+    display: flex;
+    justify-content: center;
+}
+.profile img{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.btn-continuar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: RGB(48, 142, 244);
+    border-radius: 3px;
+    height: 30px;
+    width: 200px;
+    margin-top: 30px;
+}
+.btn-continuar a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.remover-conta{
+    text-align: center;
+    margin-top: 20px;
+}
+.remover-conta a{
+    text-decoration: none;
+    color: RGB(11, 102, 204);
+    font-weight: 600;
+}
+
+.group h4{
+    font-weight: 300;
+    text-align: center;
+    
+}
+.sem-conta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-top: 10px;
+}
+
+
+.sem-conta a{
+    color: RGB(11, 102, 204);
+    text-decoration: none;
+}
+
+.obter-app{
+    width: 350px;
+    margin-top: 10px;
+}
+.obter-app-titulo{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.obter-app-titulo h4{
+    font-weight: 300;
+}
+
+.obter-app-download{
+    display: flex;
+    justify-content: center;
+}
+
+
+footer{
+    background-color: #FAFAFA;
+    margin-top: 50px;
+    height: 170px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: auto;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #8E8E8E;
+    font-weight: 300;
+    margin-right: 15px;
+}
+
+.links2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 12px;
+}
+
+.links2 a{
+    text-decoration: none;
+    color: #8E8E8E;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.linguagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.linguagem select{
+    border: none;
+    color: #8E8E8E;
+    font-weight: 300;
+    background-color: #FAFAFA;
+}
+
+.linguagem h5{
+    font-weight: 100;
+    margin-left: 30px;
+    color: #8E8E8E;
+}
+
