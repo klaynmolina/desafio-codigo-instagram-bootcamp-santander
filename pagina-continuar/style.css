@@ -179,3 +179,28 @@ footer{
     color: #8E8E8E;
 }
 
+/* Responsivo - media queries */
+
+/* até 1024px */ 
+@media(max-width: 1024px){
+    .pagina{
+        width: 95%;
+    }
+}
+
+/* até 650px */
+@media(max-width: 650px){
+    .pagina{
+        width: auto;
+    }
+    .imagem{
+        display: none;
+    }
+    .login{
+        margin: 0%;
+        width: auto;
+    }
+    footer{
+        display: none;
+    }
+}
